@@ -128,11 +128,11 @@ check_fizz:
 	div rbx
 	mov rsi, rdx
 	cmp rsi, 0
-	jne check_bang				
+	jne check_buzz				
 	printStr f					
     inc r12						
 
-check_bang:     				
+check_buzz:     				
 	mov rdx, 0
 	mov rax, rcx
 	mov rbx, 5
